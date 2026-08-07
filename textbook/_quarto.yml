@@ -9,7 +9,18 @@ book:
     - index.qmd
     - guidelines.qmd
     - introduction.qmd
+    - data-preprocessing.qmd
+    - identification-search.qmd
+    - quantification.qmd
+    - post-quantification-processing.qmd
+    - significance-analysis.qmd
+    - machine-learning-ai.qmd
+    - workflows-reproducibility.qmd
+    - programming-tools.qmd
+    - format-usability-preferences.qmd
+    - glossary.qmd
     - authors.qmd
+    - references.qmd
 
 bibliography: references.bib
 
@@ -17,5 +28,6 @@ format:
   html:
     theme:
       - cosmo
+    css: styles.css
   pdf:
     documentclass: scrreprt
